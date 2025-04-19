@@ -1,0 +1,41 @@
+.icon-circle {
+  font-size: 2.5rem;
+  background-color: #f0f4ff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #0056d2;
+}
+
+.feature-box {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  background-color: #e9f1ff;
+}
+
+.btn-primary {
+  background-color: #0056d2;
+  border-color: #0056d2;
+}
+
+.btn-primary:hover {
+  background-color: #003c9e;
+  border-color: #003c9e;
+}
+
+.nav-auth-buttons {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 10;
+}

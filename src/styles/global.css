@@ -1,0 +1,14 @@
+/* src/assets/styles.css */
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 1rem;
+}
