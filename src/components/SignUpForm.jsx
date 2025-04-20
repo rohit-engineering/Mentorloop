@@ -27,7 +27,7 @@ function SignUpForm() {
     }
 
     try {
-      await axios.post("http://localhost:8000/signup", formData);
+      await axios.post("https://mentorloop.onrender.com/signup", formData);
       localStorage.setItem("userEmail", formData.email);
       localStorage.setItem("userRole", formData.role);
       navigate(formData.role === "mentor" ? "/MentorDashboard" : "/Dashboard");
